@@ -39,26 +39,33 @@ El sistema utiliza una base de datos embebida **H2**, permitiendo ejecutar y pro
 ---
 
 ## La estructura del ejercico
-src
-└── main
-├── java/com/udb/monolitico
-│ ├── controller
-│ │ └── ProductoController.java
-│ │
-│ ├── service
-│ │ └── ProductoService.java
-│ │
-│ ├── repository
-│ │ └── ProductoRepository.java
-│ │
-│ ├── entity
-│ │ └── Producto.java
-│ │
-│ └── MonoliticoApplication.java
+monolitico/
 │
-└── resources
-└── application.properties
-
+├── pom.xml
+│
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── udb/
+        │           └── monolitico/
+        │               │
+        │               ├── MonoliticoApplication.java
+        │               │
+        │               ├── controller/
+        │               │     └── ProductoController.java
+        │               │
+        │               ├── service/
+        │               │     └── ProductoService.java
+        │               │
+        │               ├── repository/
+        │               │     └── ProductoRepository.java
+        │               │
+        │               └── entity/
+        │                     └── Producto.java
+        │
+        └── resources/
+              └── application.properties
 ---
 
 ## Explicación de Cada Carpeta
