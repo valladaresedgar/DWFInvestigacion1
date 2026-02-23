@@ -65,9 +65,8 @@ monolitico
         │                   └── Producto.java
         │
         └── resources
-            ├── application.properties
-            └── data
-                └── monolitico_db.mv.db
+            └──application.properties
+            
 ```
 ---
 
